@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import re
 import scrapy
-import scrapy.http from Request
+from scrapy.http import Request
 
 
 class JobboleSpider(scrapy.Spider):
