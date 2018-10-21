@@ -2,6 +2,7 @@
 import re
 import scrapy
 from scrapy.http import Request
+from urllib import parse
 
 
 class JobboleSpider(scrapy.Spider):
